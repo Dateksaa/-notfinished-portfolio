@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins&family=Rubik:wght@500&display=swap');
+
+
+
+
+
+body{
+    background-color: #dee0e4;
+    
+}
+
+#container{
+    height: 830px;
+    width: 1440px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 18px;
+    margin-left: 220px;
+    margin-top: 45px;
+    
+}
+
+#icon{
+    height: 65px;
+    width: 155px;
+    margin-top: 13px;
+    margin-left: 20px;
+}  /* its blue name which is top-right*/
+
+#flex1{
+    display: flex;
+}
+
+#one{
+    margin-left: 540px;
+    margin-top: 18px;
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.8s;
+
+}
+
+#one:hover{
+    color: #0084ff;
+    font-size: 35px;
+}
+
+#two{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-top: 20px;
+    transition: 0.8s;
+}
+
+#two:hover{
+    color: #0084ff;
+    font-size: 35px;
+}
+
+#three{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-top: 20px;
+    transition: 0.8s;
+}
+
+#three:hover{
+    color: #0084ff;
+    font-size: 35px;
+}
+
+#for{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-top: 20px;
+    transition: 0.8s;
+}
+
+#for:hover{
+    color: #0084ff;
+    font-size: 35px;
+}
+
+
+#five{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 64px;
+    margin-top: 20px;
+    transition: 0.8s;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0084ff;
+    font-size: 35px;
+    transition: 1s;
+}
+
+#coder{
+    height: 400px;
+    width: 400px;
+    margin-top: 125px;
+    margin-left: 695px;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0.5s;
+}
+
+@keyframes drive{
+    from{transform: translateY(0);}
+    to{transform: translateY(50px);}
+}
+
+#flex2{
+    display: flex;
+}
+
+#text{
+    margin-left: -1000px;
+    margin-top: 220px;
+    font-size: 55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btn{
+    height: 39px;
+    width: 160px;
+    border-radius: 8px;
+    background-color: #4882b9;
+    border: 0px;
+}
+#btn:hover{
+    background-color: black;
+}
+
+h{
+    font-size: 18px;
+}
+h:hover{
+    color: white;
+}
+
+#click{
+    transition: transform 1s ease ;
+    margin-top: 470px;
+    margin-left: -300px;
+}
+#click:hover{
+    transform: scale(1.1);
+    
+}
+
+#giticon{
+    height: 25px;
+    width: 25px;
+    margin-top: 700px;
+    margin-left: -400px;
+}
+
+#fbicon{
+    height: 25px;
+    width: 25px;
+    margin-top: 700px;
+    margin-left: -360px;
+}
+
+#instagram{
+    height: 27px;
+    width: 27px;
+    margin-top: 699px;
+    margin-left: -320px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

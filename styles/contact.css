@@ -1,0 +1,13 @@
+#container{
+    height: 830px;
+    width: 1440px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 18px;
+    margin-left: 220px;
+    margin-top: 45px;
+}
+
+body{
+    background-color: #c8cbd1;
+}
